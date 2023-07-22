@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+    margin : 0;
+    padding: 0;
+    background-color: #1d1d23;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.heading h1{
+    text-align: center;
+    padding: 50px;
+}
+.timer-container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 40px;
+}
+.timer-input{
+    width: 40%;
+    height: 59px;
+    margin: 0px auto;
+    background-color: #34344a;
+    border-radius: 15px;
+}
+.timer-input .timer-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 9%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: inherit;
+}
+.timer-input .timer-box div, 
+.timer-input .timer-box div p,
+.timer-input .timer-box div button{
+    background-color: inherit;
+    align-self: center;
+}
+.timer-input .timer-box div button{
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f0f757;
+    color: #000;
+}
+#form-inputs{
+    display: flex;
+    column-gap: 18px;
+    background-color: inherit;
+}
+#form-inputs input{
+    text-align: center;
+    font-size: 20px;
+    width: 35px;
+    height: 25px;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+    border-bottom: 1px solid #fff;
+}
+#start-btn:hover{
+    cursor: pointer;
+}
+#start-btn:active{
+    transition: 0.3s;
+    transform: scale(0.9);
+}
+.heading-timer{
+    margin: 0px auto;
+    width: 22%;
+}
+.heading-timer h3{
+    margin: 0px auto;
+    padding:10px;
+    border-radius: 20px;
+    background-color: #39393e;
+}
+.added-timers{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.added-timers #form-inputs input{
+    border: none;
+}
+.colon{
+    font-weight: bolder;
+}
+
+.added-timers .time-up{
+    /* width: 39%; */
+    height: 59px;
+    margin: 0px auto;
+    background-color: #f0f757;
+    display: flex;
+    border-radius: 15px;
+    justify-content: space-evenly;
+    padding: 0px;
+    align-items: center;
+}
+#stop-btn{
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: #34344a;
+    color: #fff;
+    transform: 0.3s;
+}
+#stop-btn:hover{
+    cursor: pointer;
+}
+#stop-btn:active{
+    transform: 0.3s;
+    transform: scale(0.9);
+}
+.time-up .heading b{
+    color: black;
+    font-size: 30px;;
+    padding: 0px 55px;
+    background-color: #f0f757;
+}
+.time-up .stop-btn{
+    border-radius: 20px;
+}

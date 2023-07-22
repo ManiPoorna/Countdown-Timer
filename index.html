@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CountDown Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="heading">
+            <h1>Multiple Timers App</h1>
+        </div>
+
+        <div class="timer-container">
+            <div class="timer-input" id="timer-input"> 
+                <div class="timer-box">
+                    <div class="set-time"><p>Set Timer : </p></div>
+                    <div class="inputs">
+                        <form action="POST" id="form-inputs">
+                            <div class="hours" >
+                                <input id="hours" type="text" placeholder="HH">
+                            </div>
+                            <div>:</div>
+                            <div class="minutes" >
+                                <input type="text" id="minutes" placeholder="MM">
+                            </div>
+                            <div>:</div>
+                            <div class="seconds" >
+                                <input type="text" id="seconds" placeholder="SS">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="set-btn">
+                        <button id="start-btn">Set</button>
+                    </div>
+                </div>
+            </div>
+            <div class="heading-timer">
+                <h3>Current Timers</h3>
+            </div>
+        </div>
+
+        <div class="added-timers" id="added-timer">
+            <!-- <div class="timer-input">
+                <div class="timer-box">
+                    <div class="set-time"><p>Time Left : </p></div>
+                    <div class="inputs">
+                        <form action="POST" id="form-inputs">
+                            <div class="hours" >
+                                <input id="hours" type="text" placeholder="HH">
+                            </div>
+                            <div class="colon">:</div>
+                            <div class="minutes" >
+                                <input type="text" id="minutes" placeholder="MM">
+                            </div>
+                            <div class="colon">:</div>
+                            <div class="seconds" >
+                                <input type="text" id="seconds" placeholder="SS">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="set-btn">
+                        <button id="start-btn">Delete</button>
+                    </div>
+                </div>
+            </div> -->
+            
+
+            <!-- code for timer completed -->
+
+            <!--<div class="time-up" id="time-up">
+                    <div class="heading"><b>Timer is Up..!</b></div>
+                    <div class="stop-btn" >
+                        <button id="stop-btn">Stop</button>
+                    </div>
+                </div>
+             -->
+
+            <!-- 
+            <audio controls autoplay id="audio-play" >
+                <source autoplay src="Latest Nokia Timer 2019 Mp3 Ringtone.mp3" type="audio/mpeg">
+            </audio>
+             -->
+
+        </div>
+    </div>
+
+    <script src="script.js">console.clear();</script>
+</body>
+</html>
